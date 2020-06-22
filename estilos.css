@@ -1,0 +1,236 @@
+*{
+  border: 2px;
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+.contenedor{
+  width: auto;
+  margin: 0px 10px;
+  padding: 0px 0px;
+}
+
+/*HEADER*/
+
+/*top-header-raw*/
+.header .header-top-row{
+  border-bottom: 1px solid #2d2d2d;
+  background: #1a1a1a;
+  padding: 10px;
+}
+
+.header .header-top-row .contenedor .contacto ul{
+  padding-left: 10px;
+}
+
+.header .header-top-row .contenedor .contacto ul img{
+  padding-top: 2px;
+}
+
+.header .header-top-row .contenedor .contacto ul li{
+  list-style: none;
+  display: inline-block;
+  color: #e3e3e3;
+  font-size: 17px;
+}
+
+/*top-header*/
+.header .top-header{
+  padding: 0px 0;
+  font-size: 12px;
+  border-bottom: 0px solid #f0f0f0;
+  background: #1a1a1a;
+  overflow: hidden;
+}
+
+/*Logo*/
+
+.header .top-header .contenedor .Logo{
+  float: left;
+}
+
+.header .top-header .contenedor .Logo ul{
+  margin: 15px 0px;
+  list-style: none;
+}
+
+.header .top-header .contenedor .Logo ul li{
+  float: left;
+}
+
+/*slogan*/
+
+.header .top-header .contenedor .slogan{
+  float: left;
+}
+
+.header .top-header .contenedor .slogan ul{
+  margin: 0px 0px;
+  list-style: none;
+}
+
+.header .top-header .contenedor .slogan ul li{
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+/*busqueda*/
+
+.header .top-header .contenedor .busqueda{
+  float: left;
+  margin-left: 200px;
+  margin-top: 25px;
+  background: #282c34;
+}
+
+.header .top-header .contenedor .busqueda ul{
+  list-style: none;
+
+}
+
+.header .top-header .contenedor .busqueda ul li{
+  margin-left: 350px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  float: left;
+}
+
+/*redes*/
+
+.header .top-header .contenedor .Redes{
+  float: right;
+}
+
+.header .top-header .contenedor .Redes ul{
+  list-style: none;
+}
+
+.header .top-header .contenedor .Redes ul li{
+  float: left;
+}
+
+.header .top-header .contenedor .Redes ul li a{
+  text-decoration: none;
+  color: #363940;
+  padding: 25px 15px;
+  display: inline-block;
+}
+
+/*Menu*/
+
+.Menu-principal{
+  background: #ffc100;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.Menu-principal .contenedor ul{
+  list-style: none;
+  display: inline-block;
+  margin-left: 0 auto;
+}
+
+.Menu-principal .contenedor ul li{
+  display: inline-block;
+  list-style: none;
+}
+
+.Menu-principal .contenedor ul li a{
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #363940;
+}
+
+.Menu-principal .contenedor ul li a:hover{
+  color: #ffffff;
+}
+
+/*MAIN*/
+/*Banner*/
+
+.main .banner{
+  padding-bottom: 0px;
+  border-bottom: 0px solid #f0f0f0;
+}
+
+.main .banner .contenedor{
+  margin: 0px 0px;
+  width: 100%;
+}
+
+.main .banner .contenedor .banner-principal{
+  width: 100%;
+}
+
+.main .banner .contenedor .banner-principal img{
+  width: 100%;
+  margin-bottom: -5px;
+  margin-top: -41px;
+  animation-duration: 1.5s;
+  animation-name: slidein;
+}
+
+
+/*Titulo*/
+
+.main .titulo-blog{
+ padding-bottom: 10px;
+}
+
+.main .titulo-blog .contenedor{
+  background:
+  margin: 10px 0;
+  text-align: center;
+}
+
+.titulo-blog .contenedor h1 a{
+  text-decoration: none;
+  color: #363940;
+  font-size: 60px;
+  display: inline-block;
+  padding: 30px 0;
+  font-weight: 300;
+}
+
+/*ofertas*/
+
+.main .ofertas .contenedor .mosaico-ofertas{
+  list-style: none;
+}
+
+.main .ofertas .contenedor .mosaico-ofertas .ofertas{
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+}
+
+.main .ofertas .contenedor .mosaico-ofertas .oferta img{
+  width: 70%;
+}
+
+.main .ofertas .contenedor .mosaico-ofertas .oferta .texto-oferta{
+  padding: 5px;
+}
+
+/*animation*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
